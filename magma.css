@@ -1,13 +1,24 @@
 :root {
-  background: magenta;
-  color: black;
+  background: #020202;
+  color: magenta;
 }
 
 :any-link {
   color: inherit;
+  background: transparent;
+}
+
+:hover {
+  text-decoration-style: wavy;
+}
+
+:focus {
+  outline: thick double;
+  background: magenta;
+  color: #020202;
 }
 
 ::selection {
-  background: black;
-  color: magenta;
+  background: magenta;
+  color: #020202;
 }
