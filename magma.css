@@ -1,6 +1,6 @@
 :root {
-  background: #020202;
-  color: magenta;
+  background-color: #111;
+  color: #F5E;
 }
 
 :any-link {
@@ -14,11 +14,11 @@
 
 :focus {
   outline: thick double;
-  background: magenta;
-  color: #020202;
+  background: #F5E;
+  color: #111;
 }
 
 ::selection {
-  background: magenta;
-  color: #020202;
+  background: #F5E;
+  color: #111;
 }
