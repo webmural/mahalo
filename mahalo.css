@@ -8,6 +8,7 @@
   margin: auto;
   overflow-wrap: anywhere;
   padding: 1ex;
+  border-bottom: 100vh solid;
 }
 
 .aloha {
